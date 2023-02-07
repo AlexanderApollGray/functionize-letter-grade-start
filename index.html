@@ -1,57 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Letter Grades</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
-    <link rel="stylesheet" href="style.css" />
+  <title>Letter Grades</title>
 
-    <script defer src="main.js"></script>
-  </head>
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+  <link rel="stylesheet" href="style.css" />
 
-  <body>
-    <h1>Determine Letter Grades</h1>
-    <hr />
+  <script defer src="main.js"></script>
+</head>
 
-    <p>
-      Enter percentage grades for your core subjects and then click the
-      'Determine Letter Grades' button to convert percentage grades to letter
-      grades.
-    </p>
+<body>
+  <h1>Determine Letter Grades</h1>
+  <hr />
 
-    <hr />
+  <p>
+    Enter percentage grades for your core subjects and then click the
+    'Determine Letter Grades' button to convert percentage grades to letter
+    grades.
+  </p>
 
-    <h3>English</h3>
-    <p>
-      Percentage Grade: <input type="number" id="eng-percent" /><br />
-      Letter Grade: <span id="eng-letter">-----</span>
-    </p>
+  <hr />
 
-    <h3>Social Studies</h3>
-    <p>
-      Percentage Grade: <input type="number" id="soc-percent" /><br />
-      Letter Grade: <span id="soc-letter">-----</span>
-    </p>
+  <h3>English</h3>
+  <p>
+    Percentage Grade: <input type="number" id="eng-percent" max="100" /><br />
+    Letter Grade: <span id="eng-letter">-----</span>
+  </p>
 
-    <h3>Mathematics</h3>
-    <p>
-      Percentage Grade: <input type="number" id="math-percent" /><br />
-      Letter Grade: <span id="math-letter">-----</span>
-    </p>
+  <h3>Social Studies</h3>
+  <p>
+    Percentage Grade: <input type="number" id="soc-percent" max="100" /><br />
+    Letter Grade: <span id="soc-letter">-----</span>
+  </p>
 
-    <h3>Science</h3>
-    <p>
-      Percentage Grade: <input type="number" id="sci-percent" /><br />
-      Letter Grade: <span id="sci-letter">-----</span>
-    </p>
-    <hr />
+  <h3>Mathematics</h3>
+  <p>
+    Percentage Grade: <input type="number" id="math-percent" max="100" /><br />
+    Letter Grade: <span id="math-letter">-----</span>
+  </p>
 
-    <p>
-      <button id="btn">Determine Letter Grades</button>
-    </p>
-  </body>
+  <h3>Science</h3>
+  <p>
+    Percentage Grade: <input type="number" id="sci-percent" max="100" /><br />
+    Letter Grade: <span id="sci-letter">-----</span>
+  </p>
+  <hr />
+
+  <p>
+    <button id="btn">Determine Letter Grades</button>
+  </p>
+</body>
+
 </html>
